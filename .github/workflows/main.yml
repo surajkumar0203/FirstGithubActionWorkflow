@@ -1,0 +1,19 @@
+name:Suraj Kuamr
+
+# Event
+on:
+  push:
+    branches: [ master ]
+
+
+# Job
+jobs:
+  demo:  # name of the job
+    # runner
+    runs-on: ubuntu-letest
+
+    # steps What task
+    steps:
+      - name: Greetings
+      run: echo "Hello Suraj"
+    
