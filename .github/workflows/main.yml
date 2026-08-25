@@ -2,8 +2,9 @@ name: Suraj Kumar
 
 # Event
 on:
-  push:
-    branches: [ master ]
+  schedule:
+    - cron: "0 0 * * *"
+    #   branches: [ master ]
 
 
 # Job
