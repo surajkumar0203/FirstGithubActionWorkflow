@@ -1,4 +1,4 @@
-name:Suraj Kuamr
+name: Suraj Kumar
 
 # Event
 on:
@@ -10,10 +10,9 @@ on:
 jobs:
   demo:  # name of the job
     # runner
-    runs-on: ubuntu-letest
+    runs-on: ubuntu-latest
 
-    # steps What task
+    # steps: What tasks
     steps:
       - name: Greetings
-      run: echo "Hello Suraj"
-    
+        run: echo "Hello Suraj"
